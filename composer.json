@@ -11,24 +11,24 @@
         }
     ],
     "require": {
-        "php": "^8.0.2",
+        "php": "^8.1.0",
         "ext-json": "*",
-        "composer/pcre": "^3.0",
-        "illuminate/console": "^9",
-        "illuminate/container": "^9",
-        "illuminate/contracts": "^9",
-        "illuminate/database": "^9",
-        "illuminate/http": "^9",
-        "illuminate/pipeline": "^9",
-        "illuminate/support": "^9",
-        "mockery/mockery": "^1.4.4",
-        "phpmyadmin/sql-parser": "^5.5",
-        "phpstan/phpstan": "^1.4.7"
+        "composer/pcre": "^3.0.0",
+        "illuminate/console": "^10",
+        "illuminate/container": "^10",
+        "illuminate/contracts": "^10",
+        "illuminate/database": "^10",
+        "illuminate/http": "^10",
+        "illuminate/pipeline": "^10",
+        "illuminate/support": "^10",
+        "mockery/mockery": "^1.5.0",
+        "phpmyadmin/sql-parser": "^5.5.0",
+        "phpstan/phpstan": "^1.6.8"
     },
     "require-dev": {
         "nikic/php-parser": "^4.13.2",
-        "orchestra/testbench": "^7.0.0",
-        "phpunit/phpunit": "^9.5.11"
+        "orchestra/testbench": "^8.0.x-dev",
+        "phpunit/phpunit": "^9.5.20"
     },
     "suggest": {
         "orchestra/testbench": "Using Larastan for analysing a package needs Testbench"
@@ -56,7 +56,8 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0-dev"
+            "dev-master": "2.0-dev",
+            "dev-develop": "3.0-dev"
         },
         "phpstan": {
             "includes": [
