@@ -23,7 +23,7 @@
         "illuminate/support": "^9",
         "mockery/mockery": "^1.4.4",
         "phpmyadmin/sql-parser": "^5.5",
-        "phpstan/phpstan-src": "dev-issue-7043-rel-path-in-editor-url"
+        "phpstan/phpstan": "dev-KAM-337"
     },
     "require-dev": {
         "nikic/php-parser": "^4.13.2",
@@ -75,7 +75,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:Wirone/phpstan-src.git"
+            "url": "git@github.com:soa4work/phpstan.git"
         }
     ]
 }
